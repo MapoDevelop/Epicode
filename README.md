@@ -96,7 +96,7 @@ Questa repo è personale, ma puoi aprire issue o suggerimenti se vuoi contribuir
 
 Per domande o collaborazioni:  
 **Elisa Resmini** — Fullstack Developer & AI Engineer in progress  
-LinkedIn: [_inserisci link_](https://www.linkedin.com/in/elisaresmini/)
+LinkedIn: [https://www.linkedin.com/in/elisaresmini/](https://www.linkedin.com/in/elisaresmini/)
 
 ---
 
