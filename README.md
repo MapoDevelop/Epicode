@@ -1,10 +1,3 @@
-Perfetto Elisa — ora che ho il contenuto della pagina, posso costruirti un **README professionale**, pensato per una repo GitHub dedicata agli **esercizi del corso “Python, AI & Machine Learning On‑Demand” di Epicode**.
-
-Apro con il takeaway:  
-**Ti preparo un README chiaro, strutturato, professionale e già ottimizzato per GitHub**, così puoi caricarlo subito nella tua repo.
-
----
-
 # 📘 README — Python, AI & Machine Learning (Epicode)
 
 ## 🎯 Obiettivo della Repository
@@ -103,16 +96,112 @@ Questa repo è personale, ma puoi aprire issue o suggerimenti se vuoi contribuir
 
 Per domande o collaborazioni:  
 **Elisa Resmini** — Fullstack Developer & AI Engineer in progress  
-LinkedIn: _inserisci link_
+LinkedIn: [_inserisci link_](https://www.linkedin.com/in/elisaresmini/)
 
 ---
 
-Se vuoi, posso anche generarti:
+# 📘 README — Python, AI & Machine Learning (Epicode)
 
-- una **versione in inglese**
-- una **versione più tecnica**
-- una **versione più minimal**
-- oppure posso **personalizzarlo con il tuo stile professionale**
+## 🎯 Repository Purpose
 
-Vuoi che lo adatti al tuo tono da AI Engineer?  
-Scegli: Versione più tecnica oppure Versione minimal.
+This repository contains all **exercises, practical projects, and study materials** developed throughout the _Python, AI & Machine Learning On‑Demand_ program by Epicode.
+
+The goal is to progressively build the core skills required to work with:
+
+- **Python**
+- **Data Analysis & Data Cleaning**
+- **Classical Machine Learning**
+- **Deep Learning with TensorFlow/Keras**
+- **Computer Vision & NLP**
+- **Generative AI and LLMs**
+
+---
+
+## 📂 Repository Structure
+
+- **01_python_basics** — introductory exercises on syntax, functions, and data structures.
+- **02_data_analysis** — notebooks on data cleaning, pandas, and visualizations.
+- **03_machine_learning** — predictive models, regression, classification, and evaluation metrics.
+- **04_deep_learning** — neural networks, TensorFlow, Keras, training and evaluation.
+- **05_computer_vision** — CNNs, image classification, dataset augmentation.
+- **06_nlp** — tokenization, sequential models, sentiment analysis.
+- **07_ai_generativa** — GANs, LLMs, prompt engineering, end‑to‑end applications.
+- **final_project** — final project based on a real‑world use case.
+
+---
+
+## 🚀 Technologies Used
+
+- **Python 3.x**
+- **Jupyter Notebook**
+- **Pandas, NumPy, Matplotlib, Seaborn**
+- **Scikit‑Learn**
+- **TensorFlow / Keras**
+- **OpenCV**
+- **NLTK / spaCy**
+- **HuggingFace Transformers**
+
+---
+
+## 🧠 What I Learn in This Program
+
+- Programming in Python from scratch
+- Analyzing, cleaning, and visualizing data
+- Building and evaluating predictive models
+- Training neural networks for images and text
+- Understanding and using generative models
+- Developing end‑to‑end AI applications
+
+---
+
+## 📌 How to Run the Exercises
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/<username>/<repo>
+   ```
+
+2. Create a virtual environment
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # macOS/Linux
+   venv\Scripts\activate     # Windows
+   ```
+
+3. Install dependencies
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Launch Jupyter
+   ```bash
+   jupyter notebook
+   ```
+
+---
+
+## 🏁 Final Project
+
+The final project consists of developing a **complete AI solution** based on a real dataset, including:
+
+- data preprocessing
+- model development
+- evaluation
+- results presentation
+
+---
+
+## 🤝 Contributions
+
+This is a personal repository, but feel free to open issues or suggestions if you’d like to contribute.
+
+---
+
+## 📬 Contacts
+
+For questions or collaborations:  
+**Elisa Resmini** — Fullstack Developer & AI Engineer in progress  
+LinkedIn: [https://www.linkedin.com/in/elisaresmini/](https://www.linkedin.com/in/elisaresmini/)
