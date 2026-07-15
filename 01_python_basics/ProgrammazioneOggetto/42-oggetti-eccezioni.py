@@ -47,11 +47,12 @@ class Banca:
 
     def preleva(self, importo):
         if importo > self.__saldo:
-             raise SaldoInsufficienteError("Saldo insufficiente")
+             raise SaldoInsufficienteError(self.__saldo, importo)
         self.__saldo -= importo
 
 class SaldoInsufficienteError(Exception):
-    pass
+    def __init__(self, saldo, importo):
+        super().__init__(f"Saldo insufficiente: saldo disponibile {saldo}, importo richiesto {importo}")
 
 conto = Banca(2000)
 print("Conto creato con saldo iniziale di 2000")
