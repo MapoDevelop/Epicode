@@ -33,7 +33,7 @@ class Appunti:
             f.write("")
         print(f"Contenuto di {self.nome_file} cancellato")
     
-messaggio = input("Inserisci gliappunti da salvare: ")
+messaggio = input("Inserisci gli appunti da salvare: ")
 appunti = Appunti("appunti.csv")
 timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 messaggio = f"{timestamp};{messaggio}"
