@@ -1,0 +1,63 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuzione / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Ambienti virtuali
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Variabili d'ambiente / segreti
+.env
+*.env.local
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Testing / coverage
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Type checkers / linter cache
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Log
+*.log
+
+# Database locali
+*.sqlite3
+
+# Django / Flask (facoltativo, rimuovi se non serve)
+*.pot
+db.sqlite3
+instance/
+
+# File di configurazione locale
+*.local
