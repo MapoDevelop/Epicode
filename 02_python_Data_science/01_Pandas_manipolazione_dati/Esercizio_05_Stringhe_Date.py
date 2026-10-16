@@ -27,7 +27,7 @@ date = pd.date_range(start='2026-09-01', end='2026-10-31', freq='D')
 df_date = pd.DataFrame({
     'Data':date,
     'Vendite': np.random.randint(1_000,5_000,len(date))
-})s
+})
 
 print(df_date)
 
