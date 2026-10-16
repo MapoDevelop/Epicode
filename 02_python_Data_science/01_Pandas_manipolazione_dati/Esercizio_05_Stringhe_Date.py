@@ -27,7 +27,7 @@ date = pd.date_range(start='2026-09-01', end='2026-10-31', freq='D')
 df_date = pd.DataFrame({
     'Data':date,
     'Vendite': np.random.randint(1_000,5_000,len(date))
-})
+})s
 
 print(df_date)
 
@@ -36,7 +36,7 @@ media_settimanale = df_date.resample("W", on="Data")["Vendite"].mean()
 print(media_settimanale)
 
 massimo_mensile = df_date.resample("ME", on="Data")['Vendite'].max()
-print('Massimale mensile')
+print('Massimo mensile')
 print(massimo_mensile)
 
 df_date['Somma Cumulativa'] = df_date['Vendite'].cumsum()
